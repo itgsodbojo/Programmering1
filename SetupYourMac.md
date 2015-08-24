@@ -4,7 +4,10 @@ Instruktioner för att förbereda din mac för programmering
 Homebrew är en pakethanterare, det vill säga ett program som används för att hämta, kompilera, och installera program.
 
 1. Starta terminalen
-2. Hämta och installera homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+2. Hämta och installera homebrew:
+
+	`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
 3. Skriv in ditt lösenord för datorn (inget kommer synas på skärmen) och tryck på enter
 
 ### 1.1 Installera X-Code Command Line Tools ###
@@ -31,7 +34,7 @@ Oavsett om fu fått några varningar eller inte, ska du fortsätta med följande
 
 Git är ett versionshanteringssystem som används av bl.a. homebrew.
 
-Skriv `brew install git` 
+Skriv `brew install git`
 
 Git kan ge en varning, ignorera den, vi fixar den lite senare.
 
@@ -41,7 +44,7 @@ I terminalen kan man köra olika "shells". Som standard i OS X kör man bash. Vi
 
 ### 2.2 Installera oh-my-zsh ###
 
-oh-my-zsh är ett paket med bra inställningar för zsh. 
+oh-my-zsh är ett paket med bra inställningar för zsh.
 
 1. klistra in `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 2. Skriv in ditt lösenord för datorn (inget kommer synas på skärmen) och tryck på `enter`.
@@ -62,7 +65,3 @@ Ni kommer att få licensnycklar
 ### 5.1 Konfigurera PyCharm ###
 
 ## TODO
-
-
-
-
